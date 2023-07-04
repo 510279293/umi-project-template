@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "zeng <510279293@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.0.72"
+  },
+  "devDependencies": {
+    "@junc/request": "^0.1.0",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "form-data": "^4.0.0",
+    "typescript": "^5.0.3"
+  }
+}
